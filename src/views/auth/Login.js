@@ -66,7 +66,6 @@ return props.isAuth?(<Navigate to= "/dashboards"/>):(
                       type="password"
                       value={props.details.password}
                       onChange={onChangeFunction}
-                    
                     />
                   </FormGroup>
                   <FormGroup>
