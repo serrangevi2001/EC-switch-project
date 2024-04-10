@@ -45,7 +45,7 @@ return props.isAuth?(<Navigate to= "/dashboards"/>):(
             <AuthLogo />
             <Card>
               <CardBody className="p-4 m-1">
-                <h5 className="ml-4">VW Login</h5>
+                <h5 className="ml-4">VW-Login</h5>
                 <Form>
                   <FormGroup>
                     <Label>Email</Label>
