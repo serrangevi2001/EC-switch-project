@@ -52,7 +52,7 @@ return props.isAuth?(<Navigate to= "/dashboards"/>):(
                     <Input
                       name="email"
                       placeholder="email"
-                      type="email"
+                      type="email" 
                       value={props.details.email}
                       onChange={onChangeFunction}
                    
